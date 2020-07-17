@@ -29,7 +29,7 @@ class GUI(QMainWindow): 					#Inheriti from WMainWindow
 
 		file_menu.addSeparator()						# add separator line between menu items
 
-		exit_icon = QIcon('icons/exit_icon.png')		# create icon
+		exit_icon = QIcon('../icons/exit_icon.png')		# create icon
 		exit_action = QAction(exit_icon,'Exit', self)	# create Exit Action
 		exit_action.setStatusTip('Click to exit the application')
 		exit_action.triggered.connect(self.close)		# close application when clicked

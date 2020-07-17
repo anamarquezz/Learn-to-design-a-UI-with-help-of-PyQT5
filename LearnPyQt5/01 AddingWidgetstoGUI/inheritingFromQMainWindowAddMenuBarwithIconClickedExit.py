@@ -17,7 +17,7 @@ class GUI(QMainWindow): 					#Inheriti from WMainWindow
 
 		menubar = self.menuBar()			# Create menu bar
 		file_menu = menubar.addMenu('File') # add menu to menu bar
-		new_icon = QIcon('icons/new_icon.png') #create icon
+		new_icon = QIcon('../icons/new_icon.png') #create icon
 		new_action = QAction(new_icon,'New',self)	# add icon to menu
 
 		file_menu.addAction(new_action)		# add Action to menu 

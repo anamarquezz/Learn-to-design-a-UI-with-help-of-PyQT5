@@ -1,0 +1,6 @@
+In this video
+
+* Adding many widges to our GUI
+* How to lay out the widgets
+* Several layout techniques in PyQt5
+* Positional layout, box layout, grid layout
